@@ -31,31 +31,32 @@
 </head>
 <body>
         <!-- header section start here  -->
-        <header class="sticky top-0">
-            <nav class="h-20 bg-[#c2b293] flex justify-between items-center px-24">
-                <!-- blog section area  -->
-                <div>
-                    <a class="text-xl font-semibold py-3 px-8 rounded-lg bg-btn_bg_color" href="index.html">Home</a>
-                </div>
-                <!-- logo donate bangladesh  -->
-                <div class="flex items-center gap-3">
-                    <img src=".//assets/logo.png" alt="logo">
-                    <h3 class="text-xl font-semibold">Donate Bangladesh</h3>
-                </div>
-                <!-- main balence  -->
-                <div class="flex items-center gap-3">
-                  <img class="block h-9 " src="./assets/coin.png" alt="Coin image">
-                  <button class="text-xl font-semibold  ">5500 BDT</button>
-                </div>
-            </nav>
-        </header>
+    <header class="sticky top-0">
+      <nav class="h-20 bg-[#c2b293] flex justify-between items-center md:px-24">
+          <!-- blog section area  -->
+          <div>
+              <a class="py-2 ml-8 px-4 text-xl font-semibold md:py-3 md:px-8 rounded-lg bg-btn_bg_color" href="index.html">Home</a>
+          </div>
+          <!-- logo donate bangladesh  -->
+          <div class="flex items-center gap-3">
+              <img class="hidden md:block " src=".//assets/logo.png" alt="logo">
+              <h3 class="hidden md:block md:text-xl md:font-semibold">Donate Bangladesh</h3>
+          </div>
+          <!-- main balence  -->
+          <div class="flex mr-8 gap-2 items-center md:gap-3 md:mr-28">
+            <img class="block h-9 " src="./assets/coin.png" alt="Coin image">
+            <button class=" md:text-xl font-semibold  ">5500 BDT</button>
+          </div>
+      </nav>
+  </header>
+  <!-- header section end -->
         <!-- FAQ section  -->
-        <section class="flex flex-col justify-center  mt-10">
+        <section class="flex flex-col justify-center  mt-10 pb-10">
           <h2 class="text-4xl font-bold mb-5 mx-auto">FAQ</h2>
         
           <!--first FAQ -->
           <div class="mx-auto ">
-            <div class="faq border border-gray-300 p-5 w-[700px] rounded-xl">
+            <div class="faq border border-gray-300 p-5 w-11/12 mx-auto md:w-[700px] rounded-xl">
               <div class="qus flex justify-between">
                 <h3 class="text-2xl font-semibold cursor-pointer">What is the Document Object Model (DOM)?</h3>
         
@@ -71,7 +72,7 @@
           </div>
           <!-- 2nd card  -->
           <div class="mx-auto ">
-            <div class="faq border border-gray-300 p-5 w-[700px] rounded-xl">
+            <div class="faq border border-gray-300 p-5 w-11/12 mx-auto md:w-[700px] rounded-xl">
               <div class="qus flex justify-between">
                 <h3 class="text-2xl font-semibold cursor-pointer">How do you select an element from the DOM?</h3>
         
@@ -87,8 +88,8 @@
             </div>        
           </div>
           <!-- 3rd card  -->
-          <div class="mx-auto ">
-            <div class="faq border border-gray-300 p-5 w-[700px] rounded-xl">
+          <div class="mx-auto pb-5">
+            <div class="faq border border-gray-300 p-5 w-11/12 mx-auto md:w-[700px] rounded-xl">
               <div class="qus flex justify-between">
                 <h3 class="text-2xl font-semibold cursor-pointer">What is event delegation in the context of the DOM, and why is it useful?</h3>
         
@@ -104,7 +105,7 @@
           </div>
           <!-- four card  -->
           <div class="mx-auto ">
-            <div class="faq border border-gray-300 p-5 w-[700px] rounded-xl">
+            <div class="faq border border-gray-300 p-5 w-11/12 mx-auto md:w-[700px] rounded-xl">
               <div class="qus flex justify-between">
                 <h3 class="text-2xl font-semibold cursor-pointer">
                   How do you manipulate an element's attributes and styles using the DOM?</h3>
