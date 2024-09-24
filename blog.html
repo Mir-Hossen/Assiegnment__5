@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <!-- Google Font link here  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <!-- Google Icon  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- Custom css link here  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Tailwind css cdn link here  -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- custom font, color  -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                btn_bg_color: '#B4F461',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+        <!-- header section start here  -->
+        <header class="sticky top-0">
+            <nav class="h-20 bg-[#c2b293] flex justify-between items-center px-24">
+                <!-- blog section area  -->
+                <div>
+                    <a class="text-xl font-semibold py-3 px-8 rounded-lg bg-btn_bg_color" href="index.html">Home</a>
+                </div>
+                <!-- logo donate bangladesh  -->
+                <div class="flex items-center gap-3">
+                    <img src=".//assets/logo.png" alt="logo">
+                    <h3 class="text-xl font-semibold">Donate Bangladesh</h3>
+                </div>
+                <!-- main balence  -->
+                <div class="flex items-center gap-3">
+                  <img class="block h-9 " src="./assets/coin.png" alt="Coin image">
+                  <button class="text-xl font-semibold  ">5500 BDT</button>
+                </div>
+            </nav>
+        </header>
+        <!-- FAQ section  -->
+        <section class="flex flex-col justify-center  mt-10">
+          <h2 class="text-4xl font-bold mb-5 mx-auto">FAQ</h2>
+        
+          <!--first FAQ -->
+          <div class="mx-auto ">
+            <div class="faq border border-gray-300 p-5 w-[700px] rounded-xl">
+              <div class="qus flex justify-between">
+                <h3 class="text-2xl font-semibold cursor-pointer">What is the Document Object Model (DOM)?</h3>
+        
+                <span class="material-symbols-outlined cursor-pointer">
+                  keyboard_arrow_up
+                </span>
+              </div>
+        
+              <div class="ans mt-2 overflow-hidden" style="max-height: 0;">
+                <p>The Document Object Model (DOM) is a structured representation of a web page, where each HTML element is treated as an object. This allows JavaScript to interact with the page, enabling dynamic content changes, style modifications, and handling user interactions. The DOM represents the HTML document as a tree of nodes, where each node corresponds to a part of the document</p>
+              </div>
+            </div>        
+          </div>
+          <!-- 2nd card  -->
+          <div class="mx-auto ">
+            <div class="faq border border-gray-300 p-5 w-[700px] rounded-xl">
+              <div class="qus flex justify-between">
+                <h3 class="text-2xl font-semibold cursor-pointer">How do you select an element from the DOM?</h3>
+        
+                <span class="material-symbols-outlined cursor-pointer">
+                  keyboard_arrow_up
+                </span>
+              </div>
+        
+              <div class="ans mt-2 overflow-hidden" style="max-height: 0;">
+                <p> 
+                  You can select an element from the DOM using methods like document.getElementById(), document.querySelector(), document.querySelectorAll(), document.getElementsByClassName(), and document.getElementsByTagName() to access elements by ID, class, or tag.</p> 
+              </div>
+            </div>        
+          </div>
+          <!-- 3rd card  -->
+          <div class="mx-auto ">
+            <div class="faq border border-gray-300 p-5 w-[700px] rounded-xl">
+              <div class="qus flex justify-between">
+                <h3 class="text-2xl font-semibold cursor-pointer">What is event delegation in the context of the DOM, and why is it useful?</h3>
+        
+                <span class="material-symbols-outlined cursor-pointer">
+                  keyboard_arrow_up
+                </span>
+              </div>
+        
+              <div class="ans mt-2 overflow-hidden" style="max-height: 0;">
+                <p>Event delegation allows a parent element to handle events for its children by using event bubbling. It's efficient for managing dynamically added elements and reducing multiple event listeners. <br></p>
+              </div>
+            </div>        
+          </div>
+          <!-- four card  -->
+          <div class="mx-auto ">
+            <div class="faq border border-gray-300 p-5 w-[700px] rounded-xl">
+              <div class="qus flex justify-between">
+                <h3 class="text-2xl font-semibold cursor-pointer">
+                  How do you manipulate an element's attributes and styles using the DOM?</h3>
+                <span class="material-symbols-outlined cursor-pointer">
+                  keyboard_arrow_up
+                </span>
+              </div>
+        
+              <div class="ans mt-2 overflow-hidden" style="max-height: 0;">
+                <p>Event delegation allows a parent element to handle events for its children by using event bubbling. It's efficient for managing dynamically added elements and reducing multiple event listeners.</p>
+              </div>
+            </div>        
+          </div>
+        </section>
+    <script src="./js/faq.js"></script>
+</body>
+</html>

@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment -- 5</title>
+    <title>Donate for Flood at  Bangladesh</title>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
     <!-- Google Font link here  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <!-- Google icon link  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <!-- Custom css link here  -->
     <link rel="stylesheet" href="style.css">
     <!-- Tailwind css cdn link here  -->
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
     <!-- custom font, color  -->
+    
     <script>
         tailwind.config = {
           theme: {
@@ -28,16 +32,16 @@
 </head>
 <body>
     <!-- header section start here  -->
-    <head>
-        <nav class="h-20 bg-[#F9F7F3] flex justify-between items-center px-24">
+    <header class="sticky top-0">
+        <nav class="h-20 bg-[#c2b293] flex justify-between items-center md:px-24">
             <!-- blog section area  -->
             <div>
-                <a class="text-xl font-semibold py-3 px-8 rounded-lg bg-btn_bg_color" href="#">Blog</a>
+                <a class="text-xl font-semibold py-3 px-8 rounded-lg bg-btn_bg_color" href="blog.html">Blog</a>
             </div>
             <!-- logo donate bangladesh  -->
             <div class="flex items-center gap-3">
-                <img src=".//assets/logo.png" alt="logo">
-                <h3 class="text-xl font-semibold">Donate Bangladesh</h3>
+                <img class="hidden md:block " src=".//assets/logo.png" alt="logo">
+                <h3 class="hidden md:block md:text-xl md:font-semibold">Donate Bangladesh</h3>
             </div>
             <!-- main balence  -->
             <div class="flex items-center gap-3">
@@ -45,12 +49,12 @@
               <button class="text-xl font-semibold  ">5500 BDT</button>
             </div>
         </nav>
-    </head>
+    </header>
     <!-- header section end -->
     <!-- main part start here  -->
     <main>
       <!-- main head btn  -->
-      <section class="flex justify-center gap-5 py-10 bg-white/30 backdrop-blur">
+      <section class="flex justify-center gap-5 py-10 bg-white/30 backdrop-blur sticky top-20">
         <!-- for Donation  -->
         <div>
           <a class="text-xl font-semibold py-3 px-8 rounded-lg bg-btn_bg_color" href="#"> Donation</a>
@@ -74,20 +78,19 @@
             </div>
             <!-- noakhali donate title  -->
             <h2 class="text-2xl font-bold mt-3">Donate for Flood at Noakhali, Bangladesh</h2>
-            <p class="font-light mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus molestiae rem perferendis perspiciatis ipsa deleniti pariatur dolor exercitationem laboriosam. Asperiores et libero voluptatibus dolorem ipsa possimus, corporis iusto rem enim quod, porro sed mollitia. Possimus, laboriosam tempore ab, iusto voluptatum magni alias, suscipit earum odit voluptates est perferendis? Ipsum, deserunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime ut eum voluptatibus impedit nulla rerum nobis quos adipisci, mollitia aliquid.</p>
+            <p class="font-light mt-3">Noakhali, Bangladesh, is facing a severe flood crisis, impacting thousands of families. Your support can make a difference! By donating, you can help provide essential supplies like food, clean water, and shelter to those affected. Every contribution, no matter how small, can bring hope and relief to the flood victims. Join us in this urgent humanitarian effort to restore lives and communities. Together, we can make a significant impact!</p>
             <!-- donate input  -->
-            <div class="mt-5">
+            <div class="mt-10">
               <input class=" w-10/12 rounded-xl focus:border focus:border-gray-300 border border-gray-300" type="text" id="" placeholder="Write Donation Amount">
               <!-- Donate submit btn  -->  
               <button class=" py-2.5 font-medium text-lg bg-btn_bg_color block mt-3 w-10/12 rounded-xl">Donate Now</button>
             </div>
           </div>
         </div>
-
         <!--feni card thre  -->
         <div class="mt-8 border-2 min-h-[350px] w-10/12 mx-auto p-8 border-gray-300 rounded-xl grid grid-cols-2 gap-10 ">
-          <!--auota card img  -->
-          <img class="" src="./assets/feni.png" alt="">
+          <!-- card img  -->
+          <img  src="./assets/feni.png" alt="">
           <!-- card content  -->
           <div>
             <div class="flex gap-2 w-32 py-2 justify-center items-center rounded-md bg-zinc-100">
@@ -96,16 +99,16 @@
             </div>
             <!-- feni donate title  -->
             <h2 class="text-2xl font-bold mt-3">Donate for Flood Relief in Feni,Bangladesh</h2>
-            <p class="font-light mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus molestiae rem perferendis perspiciatis ipsa deleniti pariatur dolor exercitationem laboriosam. Asperiores et libero voluptatibus dolorem ipsa possimus, corporis iusto rem enim quod, porro sed mollitia. Possimus, laboriosam tempore ab, iusto voluptatum magni alias, suscipit earum odit voluptates est perferendis? Ipsum, deserunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime ut eum voluptatibus impedit nulla rerum nobis quos adipisci, mollitia aliquid.</p>
+            <p class="font-light mt-3">
+              The recent floods in Feni, Bangladesh, have caused devastating damage to homes, crops, and infrastructure, leaving many families in dire need of assistance. We urge you to donate for flood relief efforts to support those affected. Your contributions can provide essential supplies such as food, clean water, medical aid, and shelter. Every donation, no matter the size, can make a significant difference in rebuilding lives and communities. Together, we can help our fellow citizens recover from this tragedy. Please join us in making a positive impact during this challenging time.</p>
             <!-- feni donate input  -->
-            <div class="mt-5">
+            <div class="mt-10">
               <input class=" w-10/12 rounded-xl focus:border focus:border-gray-300 border border-gray-300" type="text" id="" placeholder="Write Donation Amount">
               <!--feni Donate submit btn  -->  
               <button class=" py-2.5 font-medium text-lg bg-btn_bg_color block mt-3 w-10/12 rounded-xl">Donate Now</button>
             </div>
           </div>
         </div>
-
         <!-- card thre quota -->
         <div class="mt-8 border-2 min-h-[350px] w-10/12 mx-auto p-8 border-gray-300 rounded-xl grid grid-cols-2 gap-10 ">
           <!-- card img  -->
@@ -117,10 +120,11 @@
               <span class="text-xl tracking-normal font-medium ">500 BDT</span>
             </div>
             <!-- quota donate title  -->
-            <h2 class="text-2xl font-bold mt-3">Donate for Flood Relief in Feni,Bangladesh</h2>
-            <p class="font-light mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus molestiae rem perferendis perspiciatis ipsa deleniti pariatur dolor exercitationem laboriosam. Asperiores et libero voluptatibus dolorem ipsa possimus, corporis iusto rem enim quod, porro sed mollitia. Possimus, laboriosam tempore ab, iusto voluptatum magni alias, suscipit earum odit voluptates est perferendis? Ipsum, deserunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime ut eum voluptatibus impedit nulla rerum nobis quos adipisci, mollitia aliquid.</p>
+            <h2 class="text-2xl font-bold mt-3">Aid for Injured in the Quota Movement</h2>
+            <p class="font-light mt-3">
+              The Quota Movement has sparked significant protests across Bangladesh, advocating for reforms in the government job quota system. Many participants have faced injuries during clashes with law enforcement. We urge you to provide aid for those injured in these protests. Your support can help cover medical expenses, rehabilitation, and necessary supplies for recovery. By standing in solidarity with the injured, we can demonstrate our commitment to social justice and ensure that their voices are heard in the quest for equitable reforms.</p>
             <!-- quota donate input  -->
-            <div class="mt-5">
+            <div class="mt-16">
               <input class=" w-10/12 rounded-xl focus:border focus:border-gray-300 border border-gray-300" type="text" id="" placeholder="Write Donation Amount">
               <!-- quota Donate submit btn  -->  
               <button class=" py-2.5 font-medium text-lg bg-btn_bg_color block mt-3 w-10/12 rounded-xl">Donate Now</button>
@@ -129,9 +133,7 @@
         </div>
       </section>
     </main>
-    <!-- main part end -->
-   
     <!-- footer section  -->
-    <footer class="h-20 bg-[#F9F7F3] mt-8"></footer>
+    <footer class="h-20 bg-[#c2b293] mt-20"></footer>
 </body>
 </html>

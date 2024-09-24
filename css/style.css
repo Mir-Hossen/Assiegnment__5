@@ -1,3 +1,10 @@
+
 *{
     font-family: "Lexend", sans-serif;
+}
+
+/* for blog style  */
+.ans {
+    transition: max-height 0.3s ease;
+    overflow: hidden;
 }
